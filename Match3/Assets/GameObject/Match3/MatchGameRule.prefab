@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &835603709128711140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5539007696758303387}
+  - component: {fileID: 1584264282155089757}
+  m_Layer: 0
+  m_Name: MatchGameRule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5539007696758303387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835603709128711140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1584264282155089757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835603709128711140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f37c3844af41942922a93523f29901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MatchGameRule
+  width: 6
+  height: 8
+  cellSize: 1
+  gemPrefab: {fileID: 5685642765749663269, guid: 0a88b0d690fcf1a409fedb71982119a3, type: 3}
+  gemTypes:
+  - {fileID: 11400000, guid: 88c450e1307b0bc4182b4ae216316079, type: 2}
+  - {fileID: 11400000, guid: 86f7307545f35014599ae7adfdb27ca1, type: 2}
+  - {fileID: 11400000, guid: 0adf209b128e2cb4d90b001f3061eb45, type: 2}
+  - {fileID: 11400000, guid: 8afd21d9ba67c6647b003fccd76abcf3, type: 2}
+  - {fileID: 11400000, guid: f9c548e673f580343bd94cc499647d60, type: 2}
